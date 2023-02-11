@@ -1,0 +1,175 @@
+/*
+
+        <div class="project">
+            
+            <!--stat-->
+            
+
+            
+        </div>
+*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: antiquewhite;
+    display: inline-block;
+}
+li {
+    list-style: none;
+    margin-right: 20px;
+    display: inline-block;
+}
+ul {
+    text-align: right;
+    margin-right: 20px;
+}
+nav {
+    position: fixed;
+    width: 100vw;
+    background: rgb(209, 40, 40);
+    top: 0;
+}
+#welcome-section {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+p {
+    font-size: 30px;
+    margin-top: 0;
+    color: rgb(209, 40, 40);
+    
+}
+#work-section {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background: rgba(26, 119, 160, 0.776);
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    
+}
+
+h2 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+.project-h2 {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid whitesmoke;
+    max-width: 60%;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-tile {
+    display: inline-block;
+    background: rgb(72, 63, 63);
+    margin: 20px;
+}
+.project-div {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.pro {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contact-section {
+    background: rgb(17, 54, 70);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    color: azure;
+    border-bottom: 2px solid red;
+    padding-bottom: 60px;
+    width: 100%;
+    text-align: center;
+}
+.contact h1 {
+    font-size: 70px;
+}
+.contact p {
+    color: azure;
+    font-size: 23px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+.contact a {
+    display: inline-block;
+    margin: 10px;
+    color: azure;
+    font-size: 35px;
+}
+.contact-2 {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.contact-2 p {
+    font-size: 25px;
+    color: azure;
+    padding-top: 60px;
+    
+}
+.contact-2 p a {
+    font-size: 25px;
+}
+@media screen and (max-width: 700px) {
+    
+    .project-h2 h2 {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+    .project-h2{
+        display: block;
+        max-width: 90vw;
+        margin-bottom: 50px;
+    }
+    .project-tile {
+        display: inline-block;
+    }
+    #work-section {
+        display: block;
+        overflow: scroll;
+    }
+    #welcome-section {
+        text-align: center;
+    }
+}
